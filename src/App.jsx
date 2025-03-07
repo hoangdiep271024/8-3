@@ -5,12 +5,12 @@ import Auth from './Auth'
 function App() {
   return(
     <Router>
-      <Routes>
-      <Route path="/" element={<Navigate to="/welcome" />} />
-        <Route path="/welcome" element={<FirstScreen />} />
-        <Route path="/auth" element={<Auth />} />
-      </Routes>
-    </Router>
+  <Routes>
+    <Route index element={<FirstScreen />} />  {/* Trang mặc định */}
+    <Route path="/welcome" element={<FirstScreen />} />
+    <Route path="/auth" element={<Auth />} />
+  </Routes>
+</Router>
   )
 }
 

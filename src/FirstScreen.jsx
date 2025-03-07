@@ -36,7 +36,7 @@ export default function FirstScreen() {
     </div>
     <div style={{display: 'flex', position:'relative'}}>
       <img className='man' src ='./man.png' style={{width: '30%', height: 'auto', objectFit: 'cover', marginLeft: '35%', cursor: 'pointer'}} onClick={click}></img>
-      <div className='text' style={{textAlign: 'center', fontWeight: '800', width: 'auto', backgroundColor: '#fff', height: '30px', padding: '15px', borderRadius: '50%', marginLeft: '-5%', marginTop: '3%' }}>{'Click me:))))'}</div>
+      <div className='textt' style={{textAlign: 'center', fontWeight: '800', width: 'auto', backgroundColor: '#fff', height: '30px', padding: '15px', borderRadius: '50%', marginLeft: '-5%', marginTop: '3%' }}>{'Click me:))))'}</div>
     </div>
     
 

@@ -19,7 +19,7 @@
         transform: rotate(0deg);
     }
 }
-.text{
+.textt{
     animation: diepp 4s linear;
 }
 @keyframes diepp {
