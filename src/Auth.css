@@ -1,0 +1,8 @@
+.text{
+    animation: dieppp 2s  linear;
+}
+@keyframes dieppp {
+    from{
+        width: 0ch;
+    }
+}
