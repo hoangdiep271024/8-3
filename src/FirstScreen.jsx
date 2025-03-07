@@ -31,7 +31,7 @@ export default function FirstScreen() {
       </div>
     <div style={{width: '50%', marginTop: '20vh'}}>
     <div style={{display:'flex', alignItems: 'center', justifyContent: 'center', gap: '0px'}}>
-    <div style={{fontFamily: 'Sriracha', fontSize: '30px'}}>Dear Huong - My girlfriend</div>
+    <div style={{fontFamily: 'Sriracha', fontSize: '2vw'}}>Dear Huong - My girlfriend</div>
     <img src='./heart2.gif' style={{position: 'positive', marginLeft: '-5%'}}></img>
     </div>
     <div style={{display: 'flex', position:'relative'}}>
